@@ -1,0 +1,340 @@
+{
+  "appName": "Label Merge Compatible with Avery™",
+  "tagline": "Free Mail Merge for 2,000+ Avery, Zweckform & Other Templates",
+  "shortDescription": "The lightweight, privacy-first Google Docs™ add-on to merge spreadsheets into perfect printable labels and envelopes. Zero invasive permissions, zero external tracking, and 100% free.",
+  "badgeText": "100% Free • Verified Google Workspace Add-on",
+  "marketplaceUrl": "https://workspace.google.com/marketplace/app/details/125901585701",
+  "documentationUrl": "#how-it-works",
+  "domain": "labelmergeaddon.digitalthoughts.science",
+  "supportEmail": "support@digitalthoughts.science",
+  "githubUrl": "",
+  "logo": {
+    "url": "/logo.svg",
+    "alt": "Label Merge Logo",
+    "color": "#0c67d6"
+  },
+  "stats": {
+    "templatesCount": "2,000+",
+    "cost": "Free Forever",
+    "privacyRating": "0 Data Out"
+  },
+  "theme": {
+    "primaryColor": "#0c67d6",
+    "primaryHover": "#0852b0",
+    "brandLight": "#eff6ff"
+  },
+  "features": [
+    {
+      "id": "templates",
+      "title": "2,000+ Pre-Calibrated Templates",
+      "description": "Ready-to-print formats from Avery®, Avery Zweckform®, Herma®, and other standard commercial envelopes. Address labels, shipping tags, name badges, round stickers, and file folder tabs.",
+      "icon": "Grid",
+      "badge": "2,000+ Formats"
+    },
+    {
+      "id": "privacy",
+      "title": "Strictly No Invasive Permissions",
+      "description": "We only request access to the current document and the specific spreadsheet you select via Google Drive Picker. We NEVER ask for broad drive-wide read/write permissions.",
+      "icon": "ShieldCheck",
+      "badge": "Privacy First"
+    },
+    {
+      "id": "zero-data-leak",
+      "title": "Zero Document Data Leaves Your Workspace",
+      "description": "All merge calculations, tag substitutions, and document generation take place entirely within Google's native client environment. Your recipient lists and addresses are never transmitted to third-party servers.",
+      "icon": "Lock",
+      "badge": "100% Private"
+    },
+    {
+      "id": "free",
+      "title": "100% Free to Use Forever",
+      "description": "No hidden paywalls, no monthly subscription fees, no watermark branding on your labels, and no daily quota limits. Enjoy unrestricted mail merge directly in Google Docs.",
+      "icon": "Gift",
+      "badge": "Zero Cost"
+    },
+    {
+      "id": "precision",
+      "title": "Docs Sub-Point Precision & Shave Logic",
+      "description": "Engineered with proprietary error diffusion shave logic that compensates for Google Docs' 5pt minimum limits and printer grip tolerances, ensuring perfect millimeter print alignment.",
+      "icon": "Sliders",
+      "badge": "Pixel Perfect"
+    },
+    {
+      "id": "flexibility",
+      "title": "Dual Design Modes & Gridline Controls",
+      "description": "Design once and auto-mirror across all cells for standard mail merges, or toggle 'Design each label separately' for custom individual badges. Toggle gridlines anytime with one click.",
+      "icon": "Layers",
+      "badge": "Smart Modes"
+    }
+  ],
+  "catalogs": [
+    {
+      "id": "1",
+      "name": "Avery",
+      "initial": "A",
+      "color": "#0a58ca",
+      "sampleSkus": ["5160", "5163", "5167", "8160", "5260", "5162", "5164", "6572"],
+      "description": "Standard US Letter address, shipping, return address, and filing labels."
+    },
+    {
+      "id": "2",
+      "name": "Avery Zweckform",
+      "initial": "Z",
+      "color": "#198754",
+      "sampleSkus": ["L7160", "L7163", "3474", "3475", "L4736", "C32011"],
+      "description": "European standard A4 label sheets, universal laser/inkjet formats."
+    },
+    {
+      "id": "3",
+      "name": "Others",
+      "initial": "O",
+      "color": "#dc3545",
+      "sampleSkus": ["S-11854", "S-5042", "S-19297", "S-20914"],
+      "description": "Industrial warehouse, shipping carton, inventory barcode, and mailing labels."
+    },
+    {
+      "id": "4",
+      "name": "Envelopes",
+      "initial": "E",
+      "color": "#fd7e14",
+      "sampleSkus": ["#10 Commercial", "#9 Return", "DL Standard", "C5 Booklet", "C6 Invitation"],
+      "description": "Direct envelope mail merge for business correspondence and event invitations."
+    },
+    {
+      "id": "5",
+      "name": "Herma",
+      "initial": "H",
+      "color": "#6f42c1",
+      "sampleSkus": ["4200", "4220", "4228", "4450", "4622"],
+      "description": "High-precision German label formats, weather-resistant polyester and paper."
+    }
+  ],
+  "sampleTemplates": [
+    {
+      "id": "5160",
+      "sku": "5160 / 8160",
+      "catalogId": "1",
+      "brand": "Avery",
+      "description": "Easy Peel® Address Labels (Most Popular)",
+      "dimensions": "1\" x 2-5/8\"",
+      "perSheet": 30,
+      "format": "Letter (8.5\" x 11\")",
+      "orientation": "Portrait",
+      "category": "Address"
+    },
+    {
+      "id": "5163",
+      "sku": "5163 / 8163",
+      "catalogId": "1",
+      "brand": "Avery",
+      "description": "Shipping & Mailing Labels",
+      "dimensions": "2\" x 4\"",
+      "perSheet": 10,
+      "format": "Letter (8.5\" x 11\")",
+      "orientation": "Portrait",
+      "category": "Shipping"
+    },
+    {
+      "id": "5167",
+      "sku": "5167 / 8167",
+      "catalogId": "1",
+      "brand": "Avery",
+      "description": "Return Address Labels",
+      "dimensions": "1/2\" x 1-3/4\"",
+      "perSheet": 80,
+      "format": "Letter (8.5\" x 11\")",
+      "orientation": "Portrait",
+      "category": "Return Address"
+    },
+    {
+      "id": "5395",
+      "sku": "5395",
+      "catalogId": "1",
+      "brand": "Avery",
+      "description": "Self-Adhesive Name Badges",
+      "dimensions": "2-1/3\" x 3-3/8\"",
+      "perSheet": 8,
+      "format": "Letter (8.5\" x 11\")",
+      "orientation": "Portrait",
+      "category": "Badges"
+    },
+    {
+      "id": "L7160",
+      "sku": "L7160",
+      "catalogId": "2",
+      "brand": "Avery Zweckform",
+      "description": "Address QuickPEEL™ Laser Labels",
+      "dimensions": "63.5 x 38.1 mm",
+      "perSheet": 21,
+      "format": "A4 (210 x 297 mm)",
+      "orientation": "Portrait",
+      "category": "Address"
+    },
+    {
+      "id": "3474",
+      "sku": "3474",
+      "catalogId": "2",
+      "brand": "Avery Zweckform",
+      "description": "Universal Multi-Purpose Labels",
+      "dimensions": "70 x 37 mm",
+      "perSheet": 24,
+      "format": "A4 (210 x 297 mm)",
+      "orientation": "Portrait",
+      "category": "Universal"
+    },
+    {
+      "id": "S-11854",
+      "sku": "S-11854",
+      "catalogId": "3",
+      "brand": "Others",
+      "description": "Laser Shipping & Pallet Labels",
+      "dimensions": "3-1/3\" x 4\"",
+      "perSheet": 6,
+      "format": "Letter (8.5\" x 11\")",
+      "orientation": "Portrait",
+      "category": "Shipping"
+    },
+    {
+      "id": "4200",
+      "sku": "4200",
+      "catalogId": "5",
+      "brand": "Herma",
+      "description": "SuperPrint Universal White Labels",
+      "dimensions": "105 x 148 mm",
+      "perSheet": 4,
+      "format": "A4 (210 x 297 mm)",
+      "orientation": "Portrait",
+      "category": "Shipping"
+    },
+    {
+      "id": "env-10",
+      "sku": "#10 Commercial",
+      "catalogId": "4",
+      "brand": "Envelopes",
+      "description": "Standard Business Mailing Envelope",
+      "dimensions": "4-1/8\" x 9-1/2\"",
+      "perSheet": 1,
+      "format": "#10 Envelope",
+      "orientation": "Landscape",
+      "category": "Envelope"
+    }
+  ],
+  "privacyGuarantees": {
+    "title": "Enterprise-Grade Document Isolation",
+    "description": "Label Merge was built with a privacy-first architecture. When you perform a mail merge, your data never crosses the internet.",
+    "scopes": [
+      {
+        "scope": "https://www.googleapis.com/auth/documents.currentonly",
+        "reason": "Allows the add-on to format the currently active Google Doc. Cannot see or touch any other document in your Google Drive."
+      },
+      {
+        "scope": "https://www.googleapis.com/auth/drive.file",
+        "reason": "Allows reading ONLY the specific spreadsheet file that you deliberately choose via Google's secure Drive Picker dialog."
+      },
+      {
+        "scope": "https://www.googleapis.com/auth/script.container.ui",
+        "reason": "Required to render the sidebar, dropdown menus, and print dialog within Google Docs interface."
+      }
+    ],
+    "competitorComparison": [
+      {
+        "feature": "Third-party server data transmission",
+        "averyLabelMerge": "Zero (100% inside Google Docs)",
+        "otherAddons": "Sends spreadsheet rows to external backend servers"
+      },
+      {
+        "feature": "Google Drive permission scope",
+        "averyLabelMerge": "Current doc only + Selected file only",
+        "otherAddons": "Often requests full Drive read/write access"
+      },
+      {
+        "feature": "Cost & Quotas",
+        "averyLabelMerge": "100% Free with unlimited merges",
+        "otherAddons": "Freemium with 30-label trial or monthly subscription"
+      },
+      {
+        "feature": "Print alignment precision",
+        "averyLabelMerge": "Docs Shave logic (exact error diffusion)",
+        "otherAddons": "Basic HTML table with margin drift"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "step": 1,
+      "title": "Install & Open in Google Docs",
+      "description": "Install from the Google Workspace Marketplace with 1 click. Inside any Google Doc, click Extensions > Label Merge > Open.",
+      "tip": "Works on both personal Gmail and Google Workspace organization accounts."
+    },
+    {
+      "step": 2,
+      "title": "Select from 2,000+ Templates",
+      "description": "Search by product number (e.g. 5160, L7160, S-11854) or filter by brand (Avery, Zweckform, Herma, Envelopes, Others).",
+      "tip": "The add-on auto-configures page margins, table columns, and cell padding down to 1/20th point."
+    },
+    {
+      "step": 3,
+      "title": "Connect Your Google Sheet",
+      "description": "Click 'Select a spreadsheet' to securely pick your address list using the native Google Drive picker. Choose your sheet tab and click any header chip to insert {{Column}} tags.",
+      "tip": "Add formatting, bold text, company logos, barcodes, or custom colors to your master label."
+    },
+    {
+      "step": 4,
+      "title": "Click 'Create labels' & Print",
+      "description": "Hit 'Create labels'. The add-on iterates through your spreadsheet rows and creates perfectly populated pages. Open the PDF export and print at 100% scale.",
+      "tip": "Remember to set your printer margins to 'None / 0' and scale to 'Actual Size (100%)' for perfect label registration."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Label Merge really 100% free?",
+      "answer": "Yes! Label Merge is completely free to use. There are no paid tiers, no subscription prompts, no daily caps, and no watermark on your generated labels."
+    },
+    {
+      "question": "Why does Label Merge not ask for full Google Drive access?",
+      "answer": "Most add-ons lazily request full drive access ('drive.readonly' or 'drive'). We specifically architected this add-on to request only 'documents.currentonly' and 'drive.file' through Google's native picker. We believe your private drive files should stay private."
+    },
+    {
+      "question": "How do I ensure my labels print without shifting or misalignment?",
+      "answer": "In your print dialog: 1) Ensure paper size matches your template (Letter or A4). 2) Set Margins to 'None' or '0'. 3) Set Scale to exactly '100%' or 'Actual Size' (never 'Fit to Printable Area'). Our built-in Twips shave logic ensures Docs tables match standard die-cut tolerances."
+    },
+    {
+      "question": "Can I merge images or logos onto each label?",
+      "answer": "Yes! You can insert your company logo, return address, clipart, or barcode image directly into the top-left template cell in Google Docs. When you click 'Create labels', your visual layout is cloned faithfully across every cell."
+    },
+    {
+      "question": "What template brands are supported?",
+      "answer": "We host over 2,000 templates including Avery US & Canada, Avery Zweckform Europe & UK, Herma, other industrial labels, and commercial envelope sizes."
+    },
+    {
+      "question": "Can I customize the settings on this website?",
+      "answer": "Yes! The entire website is driven by config.json. When hosted on GitHub Pages, you can edit /public/config.json in your repository to update logos, links, marketplace URLs, template lists, and text without touching code."
+    }
+  ],
+  "footer": {
+    "companyLogoUrl": "https://raw.githubusercontent.com/DigitalThoughts/cdn/main/logo.png",
+    "copyrightOwner": "Digital Thoughts",
+    "links": [
+      {
+        "label": "Google Workspace Marketplace",
+        "url": "https://workspace.google.com/marketplace/app/details/914812548787",
+        "external": true
+      },
+      {
+        "label": "Support & Feedback",
+        "url": "mailto:support@digitalthoughts.science",
+        "external": true
+      },
+      {
+        "label": "Terms of Service",
+        "url": "https://www.digitalthoughts.science/legal",
+        "external": true
+      },
+      {
+        "label": "Privacy Policy",
+        "url": "https://www.digitalthoughts.science/legal",
+        "external": true
+      }
+    ]
+  }
+}

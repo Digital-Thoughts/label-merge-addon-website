@@ -1,0 +1,8 @@
+{
+  "name": "Label Merge Compatible with Avery",
+  "description": "Free Google Docs mail merge add-on for 2,000+ Avery, Zweckform, Herma, and Uline templates with zero invasive permissions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
